@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+    安装
+    
+</title>
+<noscript>开启Javascript是必要的</noscript>
+<link rel="stylesheet" href="/css/var.css">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+<link rel="stylesheet" href="/lib/snackbar.min.css">
+<link rel="icon" type="image/x-icon" href="/">
+<link rel="apple-touch-icon" href="/">
+<meta name="apple-mobile-web-app-title" content="Hexo">
+<link rel="bookmark" href="/">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/">
+<meta name="description" content="">
+<!-- <meta name="theme-color" content="#1C1C1F"> -->
+
+<script type="text/javascript" src="/lib/qrcode.min.js"></script>
+<div class="site-config">
+    <script>
+        var GOBALPAGE = "post"
+    </script> 
+</div>
+
+    <!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.2"></head>
+    <body id="body">
+        <div id="console" style="zoom: 1;" class="">
+    <div class="close-btn" onclick="acrylic.hideConsole()" href="javascript:void(0);">
+        <i class="fas fa-circle-xmark"></i>
+    </div>
+    <div class="button-group">
+        <div class="console-btn-item"> <a class="darkmode_switchbutton" onclick="acrylic.switchDarkMode()" title="显示模式切换"
+                href="javascript:void(0);" rel="external nofollow" data-pjax-state=""><i class="fas fa-moon"
+                    style="font-size: 1rem;"></i></a></div>
+        <div class="console-btn-item" id="consoleMusic" onclick="heo.musicToggle()" title="音乐开关"><a class="music-switch"
+                data-pjax-state=""><i class="fas fa-music"></i></a></div>
+        <div class="console-btn-item" id="consoleFPS" onclick="heo.FPSToggle()" title="帧率显示开关"><a class="FPS-switch"
+                data-pjax-state=""><i class="fas fa-gauge"></i></a></div>
+    </div>
+    <div class="console-mask" onclick="acrylic.hideConsole()" href="javascript:void(0);" rel="external nofollow"></div>
+</div>
+        <div id="sidebar" style="zoom: 1;">
+    <div id="menu-mask" style="display: none;"></div>
+    <div id="sidebar-menus" class="">
+        <span class="sidebar-menu-item-title">功能</span>
+        <div class="sidebar-menu-item">
+            <a class="darkmode_switchbutton menu-child" onclick="acrylic.switchDarkMode()" title="显示模式切换"
+                href="javascript:void(0);" rel="external nofollow">
+                <i class="fas fa-moon" style="font-size: 1rem;"></i>
+                <span>显示模式</span>
+            </a>
+        </div>
+        
+            <div class="back-menu-list-groups">
+    
+        
+            <div class="back-menu-list-group">
+                <div class="back-menu-list-title">
+                    我的
+                </div>
+            
+                
+                <div class="back-menu-list">
+                    <a class="back-menu-item" href="/" rel="external nofollow"
+                        title="博客">
+                        <img class="back-menu-item-icon" src="/img/avatar.webp" loading="lazy">
+                        <span class="back-menu-item-text">
+                            博客
+                        </span>
+                    </a>
+                </div>
+            
+        </div>
+    
+</div>
+
+        
+        <div class="menus_items">
+    
+</div>
+        <span class="sidebar-menu-item-title">标签</span>
+        <div class="card-widget card-tags card-archives card-webinfo card-allinfo">
+            <div class="item-headline">
+                <i class="fas fa-tags"></i>
+                <span>标签</span>
+            </div>
+            <div class="card-tag-cloud">
+                
+                    <a href="/tags/Acrylic/" style="font-size: 1em; color: #d3d3d3">Acrylic
+                        <sup>5</sup>
+                    </a>
+                
+                    <a href="/tags/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3/" style="font-size: 1em; color: #d3d3d3">主题文档
+                        <sup>5</sup>
+                    </a>
+                
+                    <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/" style="font-size: 1em; color: #d3d3d3">计算机基础
+                        <sup>1</sup>
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+</div>    
+        <div class="post" id="body-wrap">
+            <header class="post-bg" id="page-header">
+    <nav id="nav" class="show">
+    <div id="nav-group">
+        <div id="blog_name">
+            
+                <div class="back-home-button" tabindex="-1">
+                    <i class="back-home-button-icon fas fa-grip-vertical"></i>
+                    <div class="back-menu-list-groups">
+    
+        
+            <div class="back-menu-list-group">
+                <div class="back-menu-list-title">
+                    我的
+                </div>
+            
+                
+                <div class="back-menu-list">
+                    <a class="back-menu-item" href="/" rel="external nofollow"
+                        title="博客">
+                        <img class="back-menu-item-icon" src="/img/avatar.webp" loading="lazy">
+                        <span class="back-menu-item-text">
+                            博客
+                        </span>
+                    </a>
+                </div>
+            
+        </div>
+    
+</div>
+
+                </div>
+            
+            <a id="site-name" href="/" title="返回博客主页">
+                <span class="heoicon">
+                    Rot
+                </span>
+            </a>
+        </div>
+        <div id="page-name-mask">
+            <div id="page-name">
+                <a id="page-name-text" onclick="acrylic.toTop()">安装</a>
+            </div>
+        </div>
+        <div id="menus">
+            <div class="menus_items">
+    
+</div>
+        </div>
+        <!-- <div id="nav-left">
+            <div id="fps-group">
+                <div id="fps">145</div><span class="fpsText">FPS</span>
+            </div>
+        </div> -->
+        <div id="nav-right">
+            
+    <div class="nav-button" id="randomPost_button">
+        <a class="site-page" onclick="toRandomPost()"
+            title="随机前往一个文章">
+            <i class="fas fa-shuffle" style="font-size: 1rem;"></i>
+        </a>
+    </div>
+
+
+            
+    <div class="nav-button" id="nav-console">
+        <a class="console_switchbutton" onclick="acrylic.showConsole()"
+        title="显示中控台" href="javascript:void(0);" rel="external nofollow">
+        <i class="fas fa-bars-progress" style="font-size: 1rem;"></i>
+        </a>
+    </div>
+
+<div class="nav-button" id="nav-totop" onclick="acrylic.toTop()">
+    <a class="totopbtn">
+        <i class="fas fa-arrow-up"></i>
+        <span id="percent">0</span>
+    </a>
+</div>     
+<div id="toggle-menu">
+    <a class="site-page">
+        <i class="fas fa-bars fa-fw" style="font-size: 1rem;"></i>
+    </a>
+</div>
+        </div>
+    </div>
+</nav>
+    
+        <div class="coverdiv loaded" id="coverdiv">
+    <img id="post-cover" src="https://www.z4a.net/images/2023/02/10/2wXMcV.jpg" alt="cover">
+</div>
+<div id="post-info">
+    <div id="post-firstinfo">
+        <div class="meta-firstline">
+            <a class="post-meta-original" title="该文章为文章，注意版权协议">
+                
+            </a>
+            <span class="post-meta-categories">
+                
+                    <a class="post-meta-categories" href="/categories/Acrylic/">Acrylic</a>
+                
+            </span>
+            <div class="tag_share">
+                <div class="post-meta__tag-list">
+                    
+                        <a class="post-meta__tags" href="/tags/Acrylic/">
+                            <span class="tags-punctuation">#</span>
+                            <span class="tags-name">Acrylic</span>
+                        </a>
+                    
+                        <a class="post-meta__tags" href="/tags/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3/">
+                            <span class="tags-punctuation">#</span>
+                            <span class="tags-name">主题文档</span>
+                        </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="post-title">安装</h1>
+    <div id="post-meta">
+        <div class="meta-secondline">
+            <span class="post-meta-date">
+                <i class="fa-fw post-meta-icon fas fa-calendar"></i>
+                <span>最近</span>
+            </span>
+            <span class="post-meta-position" title="作者IP归属地为">
+                <i class="fas fa-location-dot post-meta-icon"></i>
+                <span></span>
+            </span>
+            
+            <span class="post-meta-pv" data-flag-title="热度">
+                <i class="fab fa-hotjar fa-fw post-meta-icon"></i>
+                <span id="busuanzi_value_page_pv">2686369</span>
+            </span>
+            <!-- <span class="post-meta-commentcount" title="评论数" onclick="heo.scrollTo('post-comment');"><i
+                    class="fa-solid fa-message"></i><span class="post-meta-label">评论:</span><a
+                    href="/p/bdabd8a.html#post-comment" data-pjax-state=""><span id="twikoo-count">15</span></a></span> -->
+        </div>
+    </div>
+</div>
+<section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg"
+    xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+        <path id="gentle-wave"
+            d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path>
+    </defs>
+    <g class="parallax">
+        <use href="#gentle-wave" x="48" y="0"></use>
+        <use href="#gentle-wave" x="48" y="3"></use>
+        <use href="#gentle-wave" x="48" y="5"></use>
+        <use href="#gentle-wave" x="48" y="7"></use>
+    </g>
+</svg>
+</section>
+        
+</header>
+            <main class="layout" id="content-inner">
+    <div id="post">
+    <article class="post-content" id="article-container">
+        <h2 id="Git-安裝"><a href="#Git-安裝" class="headerlink" title="Git 安裝"></a>Git 安裝</h2><p>在博客根目录里安装稳定版【推荐】</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone <span class="literal">-b</span> main https://github.com/hexo<span class="literal">-theme-Acrylic</span>/hexo<span class="literal">-theme-Acrylic</span>.git themes/Acrylic</span><br></pre></td></tr></table></figure>
+<h2 id="npm-安裝"><a href="#npm-安裝" class="headerlink" title="npm 安裝"></a>npm 安裝</h2><p>暂未适配</p>
+<h2 id="应用主题"><a href="#应用主题" class="headerlink" title="应用主题"></a>应用主题</h2><p>修改hexo配置文件<code>_config.yml</code>，把主题改为<code>Acrylic</code></p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">Acrylic</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>如果你没有pug以及stylus的渲染器，请下载安装：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="更好的配置"><a href="#更好的配置" class="headerlink" title="更好的配置"></a>更好的配置</h2><ul>
+<li>macos/linux<br>在博客根目录运行<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cp</span> -rf ./themes/Acrylic/_config.yml ./_config.Acrylic.yml</span><br></pre></td></tr></table></figure></li>
+<li>windows<br>复制<code>/themes/Acrylic/_config.yml</code>此文件到hexo根目录，并重命名为<code>_config.Acrylic.yml</code></li>
+</ul>
+<h2 id="报错？你得这样做（必做）"><a href="#报错？你得这样做（必做）" class="headerlink" title="报错？你得这样做（必做）"></a>报错？你得这样做（必做）</h2><div class="tag link"><a class="link-card" title="source.zip" href="source资源"><div class="left"><img src="https://github.com/hexo-theme-Acrylic/JS-Acrylic/blob/main/source.zip"/></div><div class="right"><p class="text">source.zip</p><p class="url">source资源</p></div></a></div>
+<blockquote>
+<p>下载后解压后替换掉根目录的source文件夹</p>
+</blockquote>
+
+    </article>
+    <div class="post-tools" id="post-tools">
+        <div class="post-tools-left">
+            
+            <div class="share-link mobile">
+    <div class="share-qrcode">
+        <div class="share-button" title="使用手机访问这篇文章">
+            <i class="fas fa-qrcode"></i>
+        </div>
+        <div class="share-main">
+            <div class="share-main-all">
+                <div id="qrcode" title="http://example.com/posts/55021/">
+                </div>
+                <div class="reward-dec">使用手机访问这篇文章</div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            new QRCode(document.getElementById("qrcode"), "http://example.com/posts/55021/");
+        </script>
+    </div>
+</div>
+            <div class="share-link weibo"><a class="share-button" target="_blank"
+    href="https://service.weibo.com/share/share.php?title=安装&amp;url=http://example.com/posts/55021/&amp;pic=https://www.z4a.net/images/2023/02/10/2wXMcV.jpg"
+    title="分享到微博" rel="noopener external nofollow noreferrer noopener">
+    <i class="fab fa-weibo" style="font-size:22px"></i>
+</a>
+</div>
+<div class="share-link copyurl">
+<div class="share-button" id="post-share-url" title="复制链接" onclick="acrylic.copyPageUrl()">
+    <i class="fas fa-link"></i>
+</div>
+</div>
+        </div>
+        <div class="post-tools-right">
+            <div class="tag_share">
+                <div class="post-meta__tag-list">
+                    
+                        <a href="/tags/Acrylic/" class="post-meta__tags">
+                            <span class="tags-punctuation">#</span>
+                            Acrylic
+                            <span class="tagsPageCount">5</span>
+                        </a>
+                    
+                        <a href="/tags/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3/" class="post-meta__tags">
+                            <span class="tags-punctuation">#</span>
+                            主题文档
+                            <span class="tagsPageCount">5</span>
+                        </a>
+                    
+                        <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/" class="post-meta__tags">
+                            <span class="tags-punctuation">#</span>
+                            计算机基础
+                            <span class="tagsPageCount">1</span>
+                        </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="post-copyright">
+    <div class="post-copyright__author">
+        <a class="post-copyright__original" title="该文章为文章，注意版权协议"></a>
+        <a class="post-copyright-title" href="#">
+            <span>安装</span>
+        </a>
+    </div>
+    <div class="post-copyright__type">
+        <span class="post-copyright-info" id="post-copyright-url">
+            <a href="/posts/55021/">http://example.com/posts/55021/</a>
+        </span>
+        <button class="post-copyright-copybtn" onclick="acrylic.copyPageUrl()">
+            <i class="fas fa-paste copy-btn"></i>
+        </button>
+    </div>
+    <div class="post-copyright__notice"><span class="post-copyright-info">本文是文章，采用 <a
+                href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a> 协议，完整转载请注明来自 <a
+                href="/"></a></span></div>
+</div>
+    <nav class="pagination-post" id="pagination">
+    
+        
+            <div class="next-post pull-full">
+                <a href="/posts/8405/">
+                    <div class="pagination-info">
+                        <div class="label">下一篇</div>
+                        <div class="next_info">主题升级方法</div>
+                    </div>
+                </a>
+            </div>
+                
+        
+    
+</nav>
+        
+</div>
+    <div class="aside-content" id="aside-content">
+    <div class="card-widget card-info">
+        <div class="card-content">
+            <div class="card-info-avatar is-center">
+                <div class="author-info__sayhi" id="author-info__sayhi">
+                </div>
+                <div class="author-info__name">
+                    John Doe
+                </div>
+                <div class="author-info__description">这有关于<b>开发</b>、<b>技术</b>相关的问题和看法，还有对于动漫的一些<b>杂评</b>。<br>相信你可以在这里找到对你有用的知识和教程。</div>
+            </div>
+        </div>
+        <div class="banner-button-group">
+            <a class="banner-button" href="/">
+                <i class="fas fa-circle-chevron-right"></i>
+                <span class="banner-button-text">个人主页</span>
+            </a>
+        </div>
+        <div class="card-info-social-icons is-center">
+            
+                <a class="social-icon" target="_blank" rel="noopener" href="https://github.com/rootlexblog" title="Github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            
+                <a class="social-icon" href="mailto:a@nalex.top" title="Mail">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            
+        </div>
+    </div>
+    <!-- <div class="card-widget heo-right-widget" id="card-wechat" onclick="window.open('/wechat/')">
+        <div id="flip-wrapper">
+            <div id="flip-content">
+                <div class="face"></div>
+                <div class="back face"></div>
+            </div>
+        </div>
+    </div> -->
+    <div class="sticky_layout">
+        
+    <div class="card-widget" id="card-toc">
+        <div class="item-headline">
+            <i class="fas fa-bars"></i>
+            <span>文章目录</span>
+        </div>
+        <div class="toc-content">
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Git-%E5%AE%89%E8%A3%9D"><span class="toc-text">Git 安裝</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#npm-%E5%AE%89%E8%A3%9D"><span class="toc-text">npm 安裝</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BA%94%E7%94%A8%E4%B8%BB%E9%A2%98"><span class="toc-text">应用主题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9B%B4%E5%A5%BD%E7%9A%84%E9%85%8D%E7%BD%AE"><span class="toc-text">更好的配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8A%A5%E9%94%99%EF%BC%9F%E4%BD%A0%E5%BE%97%E8%BF%99%E6%A0%B7%E5%81%9A%EF%BC%88%E5%BF%85%E5%81%9A%EF%BC%89"><span class="toc-text">报错？你得这样做（必做）</span></a></li></ol>
+        </div>
+    </div>
+    <div class="card-widget card-recent-post">
+    <div class="item-headline">
+        <i class="fas fa-list-ol"></i>
+        <span>最近发布</span>
+    </div>
+    <div class="aside-list">
+        
+        
+            <div class="aside-list-item">
+                <a class="thumbnail" href="/posts/55021/" title="安装">
+                    <img
+                        alt="安装"
+                        src="https://www.z4a.net/images/2023/02/10/2wXMcV.jpg" loading="lazy">
+                </a>
+                <div class="content">
+                    
+                        <a class="article-recent_post_categories" href="/posts/55021/">
+                            Acrylic
+                        </a>
+                    
+                    <a class="title" href="/posts/55021/" title="安装">
+                        安装
+                    </a>
+                    <time>最近</time>
+                </div>
+            </div>
+                
+        
+            <div class="aside-list-item">
+                <a class="thumbnail" href="/posts/8405/" title="主题升级方法">
+                    <img
+                        alt="主题升级方法"
+                        src="https://www.z4a.net/images/2023/02/10/2wXMcV.jpg" loading="lazy">
+                </a>
+                <div class="content">
+                    
+                        <a class="article-recent_post_categories" href="/posts/8405/">
+                            Acrylic
+                        </a>
+                    
+                    <a class="title" href="/posts/8405/" title="主题升级方法">
+                        主题升级方法
+                    </a>
+                    <time>2/10</time>
+                </div>
+            </div>
+                
+        
+            <div class="aside-list-item">
+                <a class="thumbnail" href="/posts/46819/" title="你好-Acrylic">
+                    <img
+                        alt="你好-Acrylic"
+                        src="https://www.z4a.net/images/2023/02/10/2wXMcV.jpg" loading="lazy">
+                </a>
+                <div class="content">
+                    
+                        <a class="article-recent_post_categories" href="/posts/46819/">
+                            Acrylic
+                        </a>
+                    
+                    <a class="title" href="/posts/46819/" title="你好-Acrylic">
+                        你好-Acrylic
+                    </a>
+                    <time>2/10</time>
+                </div>
+            </div>
+                
+        
+            <div class="aside-list-item">
+                <a class="thumbnail" href="/posts/4316/" title="插件">
+                    <img
+                        alt="插件"
+                        src="https://www.z4a.net/images/2023/02/10/2wXMcV.jpg" loading="lazy">
+                </a>
+                <div class="content">
+                    
+                        <a class="article-recent_post_categories" href="/posts/4316/">
+                            Acrylic
+                        </a>
+                    
+                    <a class="title" href="/posts/4316/" title="插件">
+                        插件
+                    </a>
+                    <time>2/10</time>
+                </div>
+            </div>
+                
+        
+            <div class="aside-list-item">
+                <a class="thumbnail" href="/posts/49736/" title="即刻短文（瀑布流）部署方案">
+                    <img
+                        alt="即刻短文（瀑布流）部署方案"
+                        src="https://img02.anzhiy.cn/adminuploads/1/2022/09/05/6315e14071f71.webp!cover" loading="lazy">
+                </a>
+                <div class="content">
+                    
+                        <a class="article-recent_post_categories" href="/posts/49736/">
+                            Acrylic
+                        </a>
+                    
+                    <a class="title" href="/posts/49736/" title="即刻短文（瀑布流）部署方案">
+                        即刻短文（瀑布流）部署方案
+                    </a>
+                    <time>2022/10/26</time>
+                </div>
+            </div>
+            
+    </div>
+</div>
+
+    </div>
+</div>
+</main>
+        </div>
+        <script type="text/javascript" src="/js/utils.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/lib/pjax.min.js"></script>
+<script type="text/javascript" src="/lib/snackbar.min.js"></script>
+<script type="text/javascript" src="/lib/view-image.min.js"></script>
+<script type="text/javascript" src="/lib/waterfall.min.js"></script>
+<link rel="stylesheet" href="/lib/swiper.min.css">
+<script type="text/javascript" src="/lib/swiper.min.js"></script>
+    
+<script>
+  let pjaxSelectors = [
+    'title',
+    '#body-wrap',
+    '.site-config',
+  ]
+  
+  const pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  document.addEventListener('pjax:error', (e) => {
+    if (e.request.status === 404) {
+      pjax.loadUrl('/404.html')
+    }
+  })
+</script>
+
+
+        <footer id="footer">
+            <div id="footer_deal">
+    
+        <a class="deal_link" href="/" rel="external nofollow" title="Github">
+            <i class="fa-brands fa-github"></i>
+        </a>
+    
+        <a class="deal_link" href="/" rel="external nofollow" title="Mail">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+    
+    <img class="footer_mini_logo" src="/img/avatar.webp"
+        title="返回顶部" onclick="acrylic.toTop()">
+    
+        <a class="deal_link" href="/" rel="external nofollow" title="网易云">
+            <i class="fa-solid fa-music"></i>
+        </a>
+    
+        <a class="deal_link" href="/" rel="external nofollow" title="bilibili">
+            <i class="fa-brands fa-bilibili"></i>
+        </a>
+    
+</div>    
+<div id="heo-footer">
+    
+        <div class="footer-group">
+            <h3 class="footer-title">导航</h3>
+            <div class="footer-links">
+                
+                    <a class="footer-item" href="/archives/" title="文章归档" rel="noopener external nofollow noreferrer">文章归档</a>
+                
+                    <a class="footer-item" href="/categories/" title="文章分类" rel="noopener external nofollow noreferrer">文章分类</a>
+                
+                    <a class="footer-item" href="/tags/" title="文章标签" rel="noopener external nofollow noreferrer">文章标签</a>
+                
+                    <a class="footer-item" href="/link/" title="友链" rel="noopener external nofollow noreferrer">友链</a>
+                    
+            </div>
+        </div>
+    
+        <div class="footer-group">
+            <h3 class="footer-title">服务</h3>
+            <div class="footer-links">
+                
+                    <a class="footer-item" target="_blank" href="https://51.la/" title="51la统计" rel="noopener external nofollow noreferrer noopener">51la统计</a>
+                
+                    <a class="footer-item" target="_blank" href="https://tongji.baidu.com/" title="百度统计" rel="noopener external nofollow noreferrer noopener">百度统计</a>
+                
+                    <a class="footer-item" target="_blank" href="https://ql.tianli0.top/" title="TianliCDN" rel="noopener external nofollow noreferrer noopener">TianliCDN</a>
+                    
+            </div>
+        </div>
+    
+        <div class="footer-group">
+            <h3 class="footer-title">Acrylic</h3>
+            <div class="footer-links">
+                
+                    <a class="footer-item" target="_blank" href="https://acrylic.zhheo.com/" title="主题官网" rel="noopener external nofollow noreferrer noopener">主题官网</a>
+                
+                    <a class="footer-item" target="_blank" href="https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic" title="Github" rel="noopener external nofollow noreferrer noopener">Github</a>
+                
+                    <a class="footer-item" target="_blank" href="https://blog.zhheo.com/" title="Heo" rel="noopener external nofollow noreferrer noopener">Heo</a>
+                    
+            </div>
+        </div>
+    
+        <div class="footer-group">
+            <h3 class="footer-title">推荐友链</h3>
+            <div class="footer-links">
+                
+                    <a class="footer-item" target="_blank" href="https://blog.zhheo.com/" title="Heo" rel="noopener external nofollow noreferrer noopener">Heo</a>
+                
+                    <a class="footer-item" target="_blank" href="https://akilar.top" title="Akilar" rel="noopener external nofollow noreferrer noopener">Akilar</a>
+                    
+            </div>
+        </div>
+    
+    
+</div>
+<div id="footer-banner">
+    <div class="footer-banner-links">
+        <div class="footer-banner-left">
+            <div id="footer-banner-tips">
+                <div class="copyright">©2021 - 2023 By 
+                    <a class="footer-banner-link" href="/" rel="external nofollow">John Doe</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-banner-right">
+            <a class="footer-banner-link" href="/rss/">订阅</a>
+            
+            <a class="footer-banner-link cc" target="_blank" href="https://creativecommons.org/licenses/by/4.0/" title="cc协议">
+                <i class="fa-solid fa-closed-captioning"></i>
+            </a>
+        </div>
+    </div>
+</div>
+        </footer>
+    <!-- hexo injector body_end start --><script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><!-- hexo injector body_end end --></body>
+</html>
+<script>const posts=["posts/55021/","posts/8405/","posts/46819/","posts/4316/","posts/49736/","posts/3924/"];function toRandomPost(){ window.pjax ? pjax.loadUrl('/'+posts[Math.floor(Math.random()*posts.length)]) : window.open('/'+posts[Math.floor(Math.random()*posts.length)], "_self"); };</script>
